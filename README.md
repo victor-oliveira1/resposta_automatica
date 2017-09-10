@@ -14,25 +14,25 @@ Desativar() -- Desativa as respostas automáticas*
 Se a função for executada com sucesso, retornará True e caso haja algum problema, retornará False.
 
 Exemplo (Ativar resposta):
->>> import resposta_automatica
->>> tmp = RespostaAutomatica('email@email.com.br', 'senha_secreta')
->>> tmp.Ativar('Teste', '0', '1', '1', '2017', '0', '1', '2', '2017')
->>> True
+> import resposta_automatica
+> tmp = RespostaAutomatica('email@email.com.br', 'senha_secreta')
+> tmp.Ativar('Teste', '0', '1', '1', '2017', '0', '1', '2', '2017')
+> True
 
 Exemplo (Desativar resposta):
->>> import resposta_automatica
->>> tmp = RespostaAutomatica('email@email.com.br', 'senha_secreta')
->>> tmp.Desativar()
->>> True
+> import resposta_automatica
+> tmp = RespostaAutomatica('email@email.com.br', 'senha_secreta')
+> tmp.Desativar()
+> True
 
 Também é possível utilizar tal módulo em uma linha:
 Exemplo (Ativar em uma linha):
->>> import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secreta').Ativar('Teste', '0', '1', '1', '2017', '0', '1', '2', '2017')
->>> True
+> import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secreta').Ativar('Teste', '0', '1', '1', '2017', '0', '1', '2', '2017')
+> True
 
 Exemplo (Desativar em uma linha):
->>> import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secreta').Desativar()
->>> True
+> import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secreta').Desativar()
+> True
 
 Escrito por Victor Oliveira
 victor.oliveira@gmx.com
