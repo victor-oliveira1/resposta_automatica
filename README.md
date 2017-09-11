@@ -42,5 +42,6 @@ import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secr
 >>> True
 ```
 
+Versão: 1.0.1
 Escrito por Victor Oliveira
 victor.oliveira@gmx.com
