@@ -50,7 +50,7 @@ Versão 1.0.1: Primeiro release. Adicionado orientação à objeto. Duas funçõ
 
 Versão 1.0.0: Criado para testes internos e estudo de funcionamento, não publicado.
 
-Versão: 1.0.1
+**Versão: 1.0.1**
 
 Escrito por Victor Oliveira
 
