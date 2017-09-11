@@ -31,6 +31,7 @@ Exemplo (Desativar em uma linha):
 >>> import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secreta').Desativar()
 >>> True
 
+Versão: 1.0.1
 Escrito por Victor Oliveira
 victor.oliveira@gmx.com
 '''
