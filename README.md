@@ -8,7 +8,9 @@ Funciona através de requisições get e post utilizando-se do módulo requests.
 Funções:
 
 Ativar() -- Ativa as respostas automáticas*
+
 Desativar() -- Desativa as respostas automáticas*
+
 *As mensagens configuradas são as mesmas para os emails internos e externos
 
 Se a função for executada com sucesso, retornará True e caso haja algum problema, retornará False.
@@ -43,5 +45,7 @@ import resposta_automatica; RespostaAutomatica('email@email.com.br', 'senha_secr
 ```
 
 Versão: 1.0.1
+
 Escrito por Victor Oliveira
+
 victor.oliveira@gmx.com
