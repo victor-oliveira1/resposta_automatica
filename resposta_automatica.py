@@ -32,10 +32,11 @@ Exemplo (Desativar em uma linha):
 >>> True
 
 Histórico de versões:
+Versão 1.0.2: Corrigido problema de chave não encontrada em caso de senha inválida.
 Versão 1.0.1: Primeiro release. Adicionado orientação à objeto. Duas funções adicionadas.
 Versão 1.0.0: Criado para testes internos e estudo de funcionamento, não publicado.
 
-Versão: 1.0.1
+Versão: 1.0.2
 Escrito por Victor Oliveira
 victor.oliveira@gmx.com
 '''
@@ -64,8 +65,12 @@ class RespostaAutomatica:
             print('Ocorreu um erro ao efetuar login. Tente novamente mais tarde')
 
         #Verifica se o usuário e/ou senha estão corretos.
-        if self.cookies['cadata'] == None:
+        try:
+            if self.cookies['cadata'] == None:
+                print('Usuário e/ou senha incorretos.')
+        except:
             print('Usuário e/ou senha incorretos.')
+            return None
 
         #Faz uma segunda requisição para poder coletar a variável "hidcanary" dentro da página web
         #TODO: Coletar a variável "hidcanary" usando algum parser HTML
